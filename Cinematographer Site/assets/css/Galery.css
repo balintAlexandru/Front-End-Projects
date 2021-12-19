@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Caudex', serif;
+    font-weight: 400;
+}
+html {
+    font-size: 62.5%;
+}
+.about{
+    overflow: hidden;
+    width: 100%;
+    background-color:black;
+}
+.contactText{
+    position: absolute;
+    font-size: 3rem;
+    color: #A79E9E;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+.menuHide{
+    display:none;
+    width:100%;
+    height:100vh;
+    position:fixed;
+    z-index: -999;
+    background-color: black;
+    opacity: 0;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+}
+.menuShow{
+    display: default;
+    width:100%;
+    height:100vh;
+    position:fixed;
+    background-color: black;
+    z-index: 200;
+    opacity: 0.8;
+    transition-timing-function: ease-out;
+}
+
+.photoLayout{
+    background-color: black;
+    width:100%;
+    height:auto;
+}
+.photoLayout1{
+    padding-top: 35rem;
+}
+.photoLayout2{
+    padding-top: 5rem;
+}
+.photo1{
+    width: 30%;
+    height: auto;
+    margin-left: 10rem;
+}
+.photo2{
+    width: 55%;
+    height: auto;
+    margin-left: 5rem;
+}
+.photo3{
+    width: 35%;
+    height:auto;
+    position:absolute;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    margin-left: 3rem;
+    z-index: 999;
+    cursor: pointer;
+}
+.photo4{
+    cursor:pointer;
+    width: 100%;
+    position: relative;
+    height:auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.photo6{
+    cursor:pointer;
+    position:absolute;
+    width: 30%;
+    height:auto;
+    z-index:9;
+    margin-left: 120rem;
+    margin-top: 100rem;
+}
+.photo5{
+    width: 40%;
+    height: auto;
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+.photo8{
+    width: 40%;
+    height: auto;
+    margin-left: 6rem;
+    margin-top: 7rem;
+}
+
+ul{
+    padding-left: 45rem;
+    padding-top: 20rem;
+}
+li{
+    width: 70%;
+}
+li p {
+    color:white;
+    font-size:7rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    padding-top: 4.5rem;
+    transition-duration: 0.5s;
+}
+
+.fa-arrow-right{
+   
+    font-size: 3.5rem;
+    float: right;
+    padding-top:2.5rem;
+    transition-duration: 0.5s;
+}
+.rot{
+    transition-duration: 0.5s;
+    transform:rotate(90deg);
+}
+.nav-a{
+    padding-bottom: 5rem;
+    transition-duration: 0.5s;
+}
+.menu-btn{
+    position: fixed;
+    width: 100%;
+}
+
+.fa-eye{
+
+    position: relative;
+    font-size: 4rem;
+    color:white;
+    margin-right: 15rem;
+    padding-top: 5rem;
+    z-index: 999;
+    cursor: pointer;
+    float:right;
+    transition-duration: 0.5s;
+}
+.rota{
+    transition-duration: 0.5s;
+    transform: translateY(6rem) rotate(90deg);
+}

@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Caudex', serif;
+    font-weight: 400;
+}
+body{
+    background-color: black;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.menuHide{
+    width:100%;
+    height:100vh;
+    position:fixed;
+    z-index: -999;
+    background-color: black;
+    opacity: 0;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+}
+.menuShow{
+    width:100%;
+    height:100vh;
+    position:fixed;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.8;
+    transition-timing-function: ease-out;
+}
+
+.menuNav{
+    padding-left: 45rem;
+    padding-top: 20rem;
+  
+}
+.menuLi{
+    width: 70%;
+}
+.naav {
+    color:white;
+    font-size:7rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    padding-top: 4.5rem;
+    transition-duration: 0.5s;
+}
+
+.fa-arrow-right{
+   
+    font-size: 3.5rem;
+    float: right;
+    padding-top:2.5rem;
+    transition-duration: 0.5s;
+}
+.rot{
+    transition-duration: 0.5s;
+    transform:rotate(90deg);
+}
+.nav-a{
+    padding-bottom: 5rem;
+    transition-duration: 0.5s;
+}
+
+.rota{
+    transition-duration: 0.5s;
+    transform: translateY(6rem) rotate(90deg);
+}
+
+
+.fa-eye{
+    position:absolute;
+    bottom:2rem;
+    right:7rem;
+    font-size: 4rem;
+    color:white;
+    z-index: 999;
+    cursor: pointer;
+    float:right;
+    transition-duration: 0.5s;
+}
+
+.photo{
+    width:100%;
+    height:auto;
+} 
+/* Menu Overlay */
+/* End menu overlay */
+/* Navbar style */
+.menu-btn{
+    position: fixed;
+    width: 100%;
+    display: default;
+    width:100%;
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    
+}
+
+p span a {
+    font-size:2rem;
+    color:#f3efefb2;
+    letter-spacing: .2rem;
+    font-weight: 900;
+   
+}
+.clipNav{
+    padding:2rem;
+    display: inline-block;
+    list-style: none;
+   
+}
+span {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  span:before, span:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+  span:before {
+    left: -2.5px;
+  }
+  span:after {
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  span:hover:before {
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  span:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+   
+/* End Navbar style */
+
+/* Layout1 */
+ .layout1{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+.layout2{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+.layout3{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+.layout4{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+.layout5{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+.balenciaga{
+    display:default;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+}
+.barzoire{
+    display:default;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+}
+.kultho{
+    display:default;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+}
+.nissa{
+    display:default;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+}
+.lensa{
+    display:default;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+}
+.indexS{
+    display:default;
+}
+.indexH{
+   display:none;
+}
+.layout1 p{
+    position: absolute;
+    font-size: 7.2rem;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    font-weight: 100;
+    float: left;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+    z-index: 999;
+}
+.layout2 p{
+    font-size: 7.2rem;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    font-weight: 100;
+    float: left;
+    cursor:pointer;
+    z-index: 9999;
+}
+.layout3 p{
+    font-size: 7.2rem;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    font-weight: 100;
+    float: left;
+    cursor:pointer;
+    z-index: 9999;
+}
+.layout4 p{
+    font-size: 7.2rem;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    font-weight: 100;
+    float: left;
+    cursor:pointer;
+    z-index: 9999;
+}
+.layout5 p{
+    font-size: 7.2rem;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    font-weight: 100;
+    float: left;
+    cursor:pointer;
+    z-index: 9999;
+}
+.myVideo{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -999; 
+}
+.myVideoBa{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -999; 
+}
+.myVideoKu{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -999;
+}
+.myVideoNi{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -999;
+}
+.myVideoLe{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -999;
+}
+ #myVideoB{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+} 
+#myVideoBa{
+    position:absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width:60%;
+} 
+#myVideoKu{
+    position:absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width:60%;
+} 
+#myVideoNi{
+    position:absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width:60%;
+} 
+#myVideoLe{
+    position:absolute;
+    top: 450%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width:60%;
+} 
+.photo{
+    z-index: 1;
+    object-fit: cover;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+.photoH{
+    z-index: -99;
+    transition-duration: 0.8s;
+    opacity: 0;
+}
+.photoBa{
+    z-index: 1;
+    object-fit: cover;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+.photoKu{
+    z-index: 1;
+    object-fit: cover;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+.photoNi{
+    z-index: 1;
+    object-fit: cover;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+.photoLe{
+    z-index: 1;
+    object-fit: cover;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+
+.overlayB{
+     display:none; 
+}
+.overlayS{
+    display:default;
+}
+.far{
+    display:default;
+    color: rgb(192, 184, 184);
+    font-size:4rem;
+    position: absolute;
+    cursor:pointer;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+/* End Layout1 */
+ .baText{
+    position:absolute;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+    z-index: 9999;
+}
+.fba{
+    display:default;
+    color: rgb(192, 184, 184);
+    font-size:4rem;
+    position: absolute;
+    cursor:pointer;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fku{
+    display:default;
+    color: rgb(192, 184, 184);
+    font-size:4rem;
+    position: absolute;
+    cursor:pointer;
+    top: 290%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fni{
+    display:default;
+    color: rgb(192, 184, 184);
+    font-size:4rem;
+    position: absolute;
+    cursor:pointer;
+    top: 390%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fle{
+    display:default;
+    color: rgb(192, 184, 184);
+    font-size:4rem;
+    position: absolute;
+    cursor:pointer;
+    top: 490%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.kuText{
+    position:absolute;
+    top: 265%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+    z-index: 9999;
+}
+.niText{
+    position:absolute;
+    top: 355%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+    z-index: 9999;
+}
+.leText{
+    position:absolute;
+    top: 465%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+    z-index: 9999;
+} 
